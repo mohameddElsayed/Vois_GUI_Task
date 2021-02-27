@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-27T15:16:04 EET" name="Default suite" finished-at="2021-02-27T15:17:31 EET" duration-ms="87190">
+    <groups>
+    </groups>
+    <test started-at="2021-02-27T15:16:04 EET" name="Default test" finished-at="2021-02-27T15:17:31 EET" duration-ms="87190">
+      <class name="Tests.SignUpTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:16:04 EET" name="setup" finished-at="2021-02-27T15:16:12 EET" duration-ms="7987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:16:12 EET" name="initialize" finished-at="2021-02-27T15:16:12 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="SignIn(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:16:13 EET" name="SignIn" data-provider="SignInData" finished-at="2021-02-27T15:16:17 EET" duration-ms="4661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohammedelsayed.94z+30@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google1_2_3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mohamed ahmed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:16:18 EET" name="getResult" finished-at="2021-02-27T15:16:18 EET" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignIn status=SUCCESS method=SignUpTests.SignIn(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Tests.SignUpTests@68999068] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CheckoutOrder()[pri:3, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:16:18 EET" name="CheckoutOrder" finished-at="2021-02-27T15:17:30 EET" duration-ms="71763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutOrder -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:17:30 EET" name="getResult" finished-at="2021-02-27T15:17:31 EET" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckoutOrder status=SUCCESS method=SignUpTests.CheckoutOrder()[pri:3, instance:Tests.SignUpTests@68999068] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SignUpTests@68999068]" started-at="2021-02-27T15:17:31 EET" name="teardown" finished-at="2021-02-27T15:17:31 EET" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.SignUpTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
